@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Decentralized file storage system</title>
+  <link rel="stylesheet" href="/dist/main.css">
+  <link href='https://fonts.googleapis.com/css?family=Cabin+Condensed:700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="sty">
+  <style>
+    @import "compass/css3";
+
+    button {
+      background-image: linear-gradient(to right, #E55D87 0%, #5FC3E4 51%, #E55D87 100%)
+    }
+
+    button {
+      margin: 10px;
+      padding: 15px 45px;
+      text-align: center;
+      text-transform: uppercase;
+      transition: 0.5s;
+      background-size: 200% auto;
+      color: white;
+      box-shadow: 0 0 20px #eee;
+      border-radius: 10px;
+      display: block;
+      border: none;
+      outline: 0 !important;
+    }
+
+    button:hover {
+      background-position: right center;
+      /* change the direction of the change here */
+      color: #fff;
+      text-decoration: none;
+    }
+
+
+    body {
+      background: #12c2e9;
+      /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+      /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+      /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+
+    div {
+      background-color: transparent;
+    }
+
+    p {
+      background-color: transparent;
+    }
+  </style>
+  <link rel="stylesheet" href="">
+
+</head>
+
+<body>
+
+  <div class="loading wave">
+    Loading
+  </div>
+
+  <!-- For Firefox -->
+  <div class="loading loading-2 wave wave-2">
+    <div class="ff">For browsers that don't support background-clip:text:</div>
+    <div class="loading-2-text"></div>
+  </div>
+  <div id="app"></div>
+  <script src="/dist/build.js"></script>
+
+</body>
+
+</html>

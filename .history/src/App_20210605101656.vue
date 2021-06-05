@@ -9,7 +9,6 @@
         <h6>Made by</h6>
         <h5 style="font-family:Arial, Helvetica, sans-serif">Irfan : 19BCE0780 and Suhail : 19BCE0226</h5>
           <h2>Post Here!</h2>
-          <div class="glitch" data-text="GLITCH">GLITCH</div> 
           <h4>share your memories.</h4>
 
           <!-- Form for file choose, caption text and submission -->

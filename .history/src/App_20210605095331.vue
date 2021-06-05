@@ -5,11 +5,8 @@
       <div id="upload">
         <div v-if="this.$root.$data.loading === false">
         <h1>Decentralized Storage App</h1>
-        <img style="padding:1rem" src="vit5.jpeg" alt="VELLORE INSTITUTE OF TECHNOLOGY">
-        <h6>Made by</h6>
-        <h5 style="font-family:Arial, Helvetica, sans-serif">Irfan : 19BCE0780 and Suhail : 19BCE0226</h5>
+        <h4>Done by Irfan(19BCE0780 and Suhail</h4>
           <h2>Post Here!</h2>
-          <div class="glitch" data-text="GLITCH">GLITCH</div> 
           <h4>share your memories.</h4>
 
           <!-- Form for file choose, caption text and submission -->
